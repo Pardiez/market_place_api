@@ -32,6 +32,13 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem "devise"
 
+# Sabisu gems
+gem 'sabisu_rails', github: "IcaliaLabs/sabisu-rails"
+gem 'compass-rails', '~> 2.0.0'
+gem 'furatto', '~> 1.3.7'
+gem 'font-awesome-rails', '~> 4.3.0.0'
+gem 'simple_form', '~> 3.1.0'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
